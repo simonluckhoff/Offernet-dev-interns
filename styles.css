@@ -1,0 +1,49 @@
+*{
+    font-family: monospace;
+    margin: 0;
+}
+
+.summary{
+    background-color: #0A4F5C;
+    color: white;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary img{
+    width: 150px;
+}
+
+.names-div{
+    display: flex;
+    gap: 20px;
+}
+
+.names{
+    background-color: #0A4F5C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 20px;
+    padding-bottom: 15px;
+}
+
+.names-div a{
+    color: white;
+    text-decoration: italic;
+    font-style: italic;
+}
+
+.summary-details{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.tasks{
+    padding-bottom: 20px;
+}
